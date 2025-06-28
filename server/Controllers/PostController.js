@@ -548,7 +548,7 @@ export const getPostsByCategory = async (req, res) => {
 
   try {
     // Validate category
-    const validCategories = ["Technology", "Fun", "Academics", "Projects", "Journal", "Other"];
+    const validCategories = ["Technology", "Fun", "Academics", "Projects", "Fashion","Travel", "Other"];
     if (!validCategories.includes(category)) {
       return res.status(400).json({ message: "Invalid category" });
     }
@@ -581,7 +581,7 @@ export const getCategoriesWithCounts = async (req, res) => {
     ]);
 
     // Ensure all categories are included even if they have 0 posts
-    const validCategories = ["Technology", "Fun", "Academics", "Projects", "Journal", "Other"];
+    const validCategories = ["Technology", "Fun", "Academics", "Projects", "Fashion","Travel", "Other"];
     const result = validCategories.map(category => {
       const found = categoryCounts.find(item => item._id === category);
       return {

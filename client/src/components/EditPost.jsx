@@ -22,8 +22,8 @@ const EditPost = ({ show, onHide, post, currentUser, onPostUpdate }) => {
     { value: "Fun", label: "Fun", icon: "🎉" },
     { value: "Academics", label: "Academics", icon: "📚" },
     { value: "Projects", label: "Projects", icon: "🚀" },
-    { value: "Journal", label: "Journal", icon: "📝" },
-    { value: "Other", label: "Other", icon: "📄" },
+    { value: "Fashion", label: "Fashion", icon: "👜" },
+    { value: "Travel", label: "Travel", icon: "✈️" },    { value: "Other", label: "Other", icon: "📄" },
   ]
 
   // Extract hashtags from text

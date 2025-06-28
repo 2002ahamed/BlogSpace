@@ -13,7 +13,8 @@ const CategoryFilter = ({ activeCategory, onCategoryChange, className = "" }) =>
     { value: "Fun", label: "Fun", icon: "🎉", color: "bg-pink-100 text-pink-800 hover:bg-pink-200" },
     { value: "Academics", label: "Academics", icon: "📚", color: "bg-green-100 text-green-800 hover:bg-green-200" },
     { value: "Projects", label: "Projects", icon: "🚀", color: "bg-purple-100 text-purple-800 hover:bg-purple-200" },
-    { value: "Journal", label: "Journal", icon: "📝", color: "bg-yellow-100 text-yellow-900 hover:bg-yellow-200" },
+    { value: "Fashion", label: "Fashion", icon: "👜", color: "bg-yellow-100 text-yellow-900 hover:bg-yellow-200" },
+    { value: "Travel", label: "Travel", icon: "✈️", color: "bg-red-100 text-yellow-700 hover:bg-yellow-500" },
     { value: "Other", label: "Other", icon: "📄", color: "bg-gray-100 text-gray-800 hover:bg-gray-200" },
   ]
 
